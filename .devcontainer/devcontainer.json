@@ -1,0 +1,22 @@
+{
+  "name": "AI Workshop",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "saoudrizwan.claude-dev",
+        "ms-python.python"
+      ]
+    }
+  },
+  "postCreateCommand": "cp -n .env.example .env; pip install --no-cache-dir -r requirements.txt",
+  "forwardPorts": [
+    8501
+  ],
+  "portsAttributes": {
+    "8501": {
+      "label": "Streamlit app",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
