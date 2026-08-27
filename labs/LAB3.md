@@ -10,6 +10,10 @@ Work in a **fresh copy of the template** — click "Use this template" again and
 call it `lab3-practice`. Not in your group project: a failed experiment here
 must not touch the app you demo in two hours.
 
+**One note before you start.** In a fresh copy, a bare `pytest` also reports
+Lab 1's spectrum tests failing — you never built that module in *this* copy.
+Ignore them. Every command below names the tests that matter.
+
 ## Checkpoint 1 — The way it used to be (10 minutes)
 
 `core/naive_parser.py` is already written for you. It is regular expressions and
