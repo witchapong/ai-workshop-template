@@ -91,6 +91,17 @@ Your key in `.env` is for the **app**. Cline is a separate extension with
 its own settings and its own copy of the key. Passing `check_setup.py` tells
 you nothing about whether your agent can talk to anything.
 
+**"Why the same key in two places?"** Because they are two different
+programs. `.env` is read by *your app* — `check_setup.py` today, and
+`core/llm.py` in Session 3 when your app starts calling a model itself. Cline
+is not your app; it is the tool building it, and it carries its own
+credentials. Lab 1's app never calls a model at all, so today `.env` is doing
+one job: proving your key is real before you depend on it.
+
+That split — the tool that does things, and the model that decides what to
+say — is the mental model this whole course runs on. You just met it as an
+annoyance.
+
 1. Click the **Cline icon** in the left sidebar.
 2. It asks for an **API provider**. Choose **Google Gemini**.
 3. Paste your Gemini key.
