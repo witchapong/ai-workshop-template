@@ -39,7 +39,13 @@ Exactly two kinds of criterion are allowed, and you must use both:
                        There are seven tests in that file. EVERY ONE of them
                        must appear as the criterion of some row, including
                        the one asserting that a tone entered at amplitude 1.0
-                       reads back as 1.0.
+                       reads back as 1.0, and the one about a constant offset
+                       at zero hertz.
+                       Word these rows as claims about the COMPUTATION, never
+                       about the screen: "the spectrum of a 50 Hz tone peaks
+                       at 50 Hz", not "the system accepts a frequency". If the
+                       row describes what a person types or sees, it is not a
+                       pytest row.
 
   EYES: <what a person opens, and what they must see>
                        for anything the tests do not reach. Everything about
