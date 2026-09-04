@@ -96,6 +96,11 @@ the file later:
    repository opens pages/, so a task that owns a page can never be finished
    by pytest.
 
+   Copy the STRONGEST EYES row you wrote, not the easiest one. Task 2's Done
+   when must name a number to read off the screen. "two spikes appear" can be
+   ticked by someone who never read a spike height, and reading the height is
+   the whole reason this app exists.
+
 Write both files now. Do not ask permission first. Do not print them in your
 reply instead of writing them. Do not write any .py file.
 ```
