@@ -76,10 +76,12 @@ reply instead of writing it. Do not write any .py file.
 ```
 aidlc/requirements.md is approved. Read it.
 
-Now use your file-writing tool to WRITE two files. In BOTH of them, keep the
-explanation above the table exactly as it is and replace only the table and
-what follows it — that text is what the student reads when they come back to
-the file later:
+Now use your file-writing tool to WRITE two files. In each one, keep THAT
+FILE'S OWN explanation — the text already above its table — exactly as it is,
+and replace only the table and what follows it. Do not copy the explanation
+from one file into the other, and do not bring across anything from
+aidlc/requirements.md; each file keeps the words it already had, because that
+is what the student reads when they come back to it:
 
 1. aidlc/design.md — what the app computes, and which screen shows it. It must
    include a function table with one row per function in core/spectrum.py,
